@@ -5,47 +5,111 @@
   <link rel="icon" type="image/png" href="/favicon.png">
   <style>
     body { background-color: black; }
-    h1 { color: pink; }
 
     .basicDiv {
       border: 10px;
       background-color: #252B3E;
-      text-align: center;
+      text-align: justify;
     }
-    .specialDiv {
-      border: 10px;
-      background-color: #433F6A;
-      text-align: center;
+    .containerDiv {
+      text-align: left;
+      width: 100%;
+    }
+    .divb {
+      width: 100%;
+      background-color: #252B3E;
+      height: 600px;
+    }
+    .leftDiv {
+      width: 49%;
+      height:180px;
+      float: left;
+      background-color: #252B3E;
+    }
+    .centerDiv {
+      width: 100%;
+      background-color: #252B3E;
+    }
+    .rightDiv {
+      width: 49%;
+      height:180px;
+      float: right;
+      background-color: #252B3E;
     }
     .primaryText {
       color: #ECC5AB;
       font-family:monospace,courier;
       text-align: center;
     }
-
+  a:visited {
+    color: #7C8B93;
+  }
   p {
     color: #FEAD60;
     font-family:monospace,courier;
     font-size: 1.2em;
   }
   h1 {
+    color: #E54E8C;
     font-size: 3em;
     font-family:monospace,courier;
+    text-align: center;
+  }
+  h2 {
+    color: #ECC5AB;
+    font-family:monospace,courier;
+    text-align: center;
+  }
+  h3 {
+    color: #BE9C4C;
+    font-family: monospace, courier;
+    padding-left: 5px;
   }
   </style>
 </head>
+
 <body>
-  <h1>Nexii Nerain's Blog</h1>
+  <h1>The World of Nexii Nerain</h1>
   <div class="basicDiv">
-    <p>Welcome to my hand-coded blog! This is my personal place to dump photos, my music projects, code, anything I make! You can also check the google site if you want more stuff, but that won't be upkept quite as much!</p>
+    <p>Welcome to my site! I have been working on this for a little while now, and seek to turn this into a gallery for all of my art, commissions, projects, writing, and other media I produce and purchase, as well as a place you can find information such as commission prices and how to contact me about potential commissions! If you're not the type to commission artists, I understand and hope you still enjoy the media I post here!</p>
   </div>
-  <div class="specialDiv">
-    <audio controls>
-      <source src="assets/audio/3.1_startup.wav" type="audio/wav">
-    </audio>
+  <h2>Navigation</h2>
+  <div class="containerDiv">
+    <div class="leftDiv">
+      <h3 align="center">Internal pages</h3>
+      <h3><a href="cookbook.html" class="primaryText">Cookbook</a></h3>
+      <h3><a href="gallery.html" class="primaryText">Gallery</a></h3>
+      <h3><a href="library.html" class="primaryText">Library</a></h3>
+    </div>
+    <div class="rightDiv">
+      <h3 align="center">External pages</h3>
+      <h3><a href="http://www.nexiinerain.com/" class="primaryText">My Google site</a></h3>
+      <h3><a href="https://www.furaffinity.net/user/nexiichrona/">My FurAffinity profile</a></h3>
+      <br><br>
+    </div>
+    <br>
   </div>
-    <h2><a href="cookbook.html" class="primaryText">Cookbook</a></h2>
-    <h2><a href="gallery.html" class="primaryText">Gallery</a></h2>
-    <h2><a href="http://www.nexiinerain.com/" class="primaryText">My Google site</a></h2>
+  <br><br><br><br><br><br><br><br><br>
+  <div class="containerDiv">
+    <div class="centerDiv">
+      <h2>Places to follow me</h2>
+      <p>Discord: Nexii Nerain#7836</p>
+      <p>Telegram: @NexiiNerain</p>
+      <p>Twitter: @NexiiNeraii</p>
+    </div>
+  </div>
+
+  <div class="containerDiv">
+    <div class="divb">
+      <img src="assets/pictures/art/nexii1.png" height="600px" align="right">
+      <h2>Featured content:</h2>
+      <a href="library/emergency-coffee.html"><img src="assets/pictures/coffee-stock.jpg" align="left">
+      <p>Emergency Coffee, story</p></a>
+      <p>Story by Nexii.</p>
+      <br>
+      <p align="bottom">Nexii full-body art, art by <a href="https://www.furaffinity.net/user/umbreveon/">umbreveon</a> on FA!</p>
+    </div>
+  </div>
+
 </body>
 </html>
